@@ -1,0 +1,7 @@
+../../build/X86/gem5.opt ../../configs/deprecated/example/se.py --cmd=./r --cpu-type=DerivO3CPU --caches --mem-size=1GB --num-cpus 1  
+sudo mount -o loop,offset=1048576 ./gapbs.img ./mnt
+
+jxm@jxm-virtual-machine:~/NewFolder/gem5/test$ sudo cp ./mpi_receiver ./mnt
+jxm@jxm-virtual-machine:~/NewFolder/gem5/test$ sudo cp ./mpi_sender ./mnt
+sudo umount /mnt
+

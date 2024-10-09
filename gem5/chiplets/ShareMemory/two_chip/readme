@@ -1,0 +1,2 @@
+../../../build/X86/gem5.opt ../../../configs/deprecated/example/se.py --cmd="./c0;./c1" --cpu-type=DerivO3CPU --caches --mem-size=1GB --num-cpus 2 --chip_id "0;1"
+
